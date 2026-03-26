@@ -27,7 +27,7 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 
 ### ☁️ [TgDrive](https://github.com/dmi3midd/fullstack-tgdrive/tree/patterns)
 > *Cloud storage backend utilizing the Telegram Bot API*
-- **Innovation:** Engineered a custom backend using the **Adapter pattern** to bypass storage limitations, providing unlimited file hosting via Telegram.
+- **Innovation:** Engineered a custom backend using the Adapter pattern to bypass storage limitations, providing unlimited file hosting via Telegram.
 - **Virtual File System:** Designed a VFS on top of MongoDB supporting n-level directory structures and atomic move/rename functions.
 - **Stack:** `Node.js`, `TypeScript`, `MongoDB`, `JWT`.
 
