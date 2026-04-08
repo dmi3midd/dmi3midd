@@ -18,24 +18,28 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 
 ## 🚀 Featured Projects
 
-### 📓 [notter](https://github.com/dmi3midd/notter)
+### [notter](https://github.com/dmi3midd/notter)
+*`in final stage`*
 > *High-performance REST API for a note-taking service*
 - **Architecture:** Architected using a layered approach (Routers ➔ Handlers ➔ Services ➔ Repositories ➔ Domain), significantly improving maintainability.
 - **Security:** Implemented a secure JWT-based authentication system with a token rotation mechanism (Access/Refresh tokens).
 - **Middleware:** Developed custom middleware for request authorization and automatic user context injection.
 - **Stack:** `Go`, `Chi`, `sqlx`, `PostgreSQL`.
 
-### ☁️ [TgDrive](https://github.com/dmi3midd/fullstack-tgdrive/tree/patterns)
-> *Cloud storage backend utilizing the Telegram Bot API*
-- **Innovation:** Engineered a custom backend using the Adapter pattern to bypass storage limitations, providing unlimited file hosting via Telegram.
-- **Virtual File System:** Designed a VFS on top of MongoDB supporting n-level directory structures and atomic move/rename functions.
-- **Stack:** `Node.js`, `TypeScript`, `MongoDB`, `JWT`.
-
-### 💻 [Papelane](https://github.com/dmi3midd/papelane)
+### [papelane-cli](https://github.com/dmi3midd/papelane-cli)
+*`in development`*  
 > *CLI Telegram-based cloud storage*
 - **Status:** 🚧 In active development.
 - **Focus:** Building a streamlined CLI for managing files with local caching but cloud storage and Telegram integration(similar to TgDrive).
-- **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `Docker`.
+- **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `sqlx`, `Docker`.
+
+### [macauth](https://github.com/dmi3midd/macauth)
+*`in final stage`*
+> *A lightweight SSO microservice designed for centralized authentication and secure session management*
+- **Architecture:** Architected using a layered approach (Routers ➔ Handlers ➔ Services ➔ Repositories ➔ Domain), significantly improving maintainability.
+- **Security:** Implemented a secure JWT-based authentication system with asymmetric RSA encryption and a token rotation mechanism (Access/Refresh tokens).
+- **Middleware:** Developed custom middleware for API key authorization and secure client validation (using bcrypt).
+- **Stack:** `Go`, `Chi`, `sqlx`, `SQLite`.
 
 ---
 
