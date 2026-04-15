@@ -34,7 +34,7 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 - **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `sqlx`, `Docker`.
 
 ### [macauth](https://github.com/dmi3midd/macauth)
-*`in final stage`*
+*`Completed. Will be improve`*
 > *A lightweight SSO microservice designed for centralized authentication and secure session management*
 - **Architecture:** Architected using a layered approach (Routers ➔ Handlers ➔ Services ➔ Repositories ➔ Domain), significantly improving maintainability.
 - **Security:** Implemented a secure JWT-based authentication system with asymmetric RSA encryption and a token rotation mechanism (Access/Refresh tokens).
