@@ -18,14 +18,6 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 
 ## 🚀 Featured Projects
 
-### [notter](https://github.com/dmi3midd/notter)
-*`in final stage`*
-> *High-performance REST API for a note-taking service*
-- **Architecture:** Architected using a layered approach (Routers ➔ Handlers ➔ Services ➔ Repositories ➔ Domain), significantly improving maintainability.
-- **Security:** Implemented a secure JWT-based authentication system with a token rotation mechanism (Access/Refresh tokens).
-- **Middleware:** Developed custom middleware for request authorization and automatic user context injection.
-- **Stack:** `Go`, `Chi`, `sqlx`, `PostgreSQL`.
-
 ### [papelane-cli](https://github.com/dmi3midd/papelane-cli)
 *`in development`*  
 > *CLI Telegram-based cloud storage*
