@@ -18,12 +18,13 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 
 ## 🚀 Featured Projects
 
-### [papelane-cli](https://github.com/dmi3midd/papelane-cli)
-*`in development`*  
-> *CLI Telegram-based cloud storage*
-- **Status:** 🚧 In active development.
-- **Focus:** Building a streamlined CLI for managing files with local caching but cloud storage and Telegram integration(similar to TgDrive).
-- **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `sqlx`, `Docker`.
+### [seaurl](https://github.com/dmi3midd/seaurl)
+*`Completed. Will be improved`*
+> *A high-performance URL shortener service*
+- **Architecture:** Implemented using a layered design (Server ➔ Services ➔ Repositories ➔ Models), ensuring low coupling and high testability of business logic.
+- **Observability:** Integrated structured JSON logging using the `slog` package for effective monitoring and request tracking across all application layers.
+- **Infrastructure:** Fully containerized the application with Docker and implemented automated database schema management and migrations using Goose.
+- **Stack:** `Go`, `Chi`, `sqlx`, `SQLite`, `Docker`, `Goose`.
 
 ### [macauth](https://github.com/dmi3midd/macauth)
 *`Completed. Will be improve`*
@@ -31,7 +32,14 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 - **Architecture:** Architected using a layered approach (Routers ➔ Handlers ➔ Services ➔ Repositories ➔ Domain), significantly improving maintainability.
 - **Security:** Implemented a secure JWT-based authentication system with asymmetric RSA encryption and a token rotation mechanism (Access/Refresh tokens).
 - **Middleware:** Developed custom middleware for API key authorization and secure client validation (using bcrypt).
-- **Stack:** `Go`, `Chi`, `sqlx`, `SQLite`.
+- **Stack:** `Go`, `Chi`, `sqlx`, `SQLite`, `Docker`, `Goose`.
+
+### [papelane-cli](https://github.com/dmi3midd/papelane-cli)
+*`in development`*  
+> *CLI Telegram-based cloud storage*
+- **Status:** 🚧 In active development.
+- **Focus:** Building a streamlined CLI for managing files with local caching but cloud storage and Telegram integration(similar to TgDrive).
+- **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `sqlx`, `Docker`, `Goose`.
 
 ---
 
