@@ -37,8 +37,7 @@ I’m a backend enthusiast currently diving deep into the **Go ecosystem** to bu
 ### [papelane-cli](https://github.com/dmi3midd/papelane-cli)
 *`Completed. Will be improved`*
 > *CLI Telegram-based cloud storage*
-- **Status:** 🚧 In active development.
-- **Focus:** Building a streamlined CLI for managing files with local caching but cloud storage and Telegram integration(similar to TgDrive).
+- **Focus:** Building a streamlined CLI for managing files with local caching but cloud storage and Telegram integration.
 - **Stack:** `Go`, `Cobra`, `Viper`, `SQLite`, `sqlx`, `Docker`, `Goose`.
 
 ---
